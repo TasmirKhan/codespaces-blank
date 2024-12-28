@@ -9,6 +9,6 @@ public class first{
          b++;
        }
       System.out.println("No. of digits in the given value is "+b);
-      
+      sc.close();
     }
 }
