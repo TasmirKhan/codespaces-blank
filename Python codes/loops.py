@@ -36,13 +36,30 @@
 # for el in range(1,11):
 #     print(el,"X",no,"=",el*no)
 
-print("\nProgram to find sum of first n numbers")
-x = int(input("Enter the no."))
-a=0
-temp=0
-# for el in range(x+1):
-#     a = a+el
-while a<=x:
-    temp = temp+a
-    a+=1
-print(temp)
+# print("\nProgram to find sum of first n numbers")
+# x = int(input("Enter the no."))
+# a=0
+# temp=0
+# # for el in range(x+1):
+# #     a = a+el
+# while a<=x:
+#     temp = temp+a
+#     a+=1
+# print(temp)
+
+
+
+# print("Program to find the factorial of a number")
+# a = int(input("Enter the number "))
+# b=1
+# # x=0
+# # while x<=a:
+# #     pass
+
+# for el in range(1,a+1):
+#     b = b*el
+
+# print(b)
+
+
+
