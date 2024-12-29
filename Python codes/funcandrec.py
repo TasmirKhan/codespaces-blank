@@ -20,13 +20,21 @@ def currencychange(a=1):
     return a*85.50
 
 def printlist(a):
-    
+    temp = len(a)
+    print("\nElements of the list are:-")
+    for el in range(0,temp):
+        print(a[el])
+
+def lenoflist(a):
+    print( "Length of the given list is",len(a))
+    return len(a)
 a =20
 b=40
 c=5
-list = [1,2,3,4]
+list = [11,4,2,5]
 average(a,b,c)
 mult(a*b,c)
 factorial(c)
 currencychange()
+lenoflist(list)
 printlist(list)
