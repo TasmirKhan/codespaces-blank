@@ -1,0 +1,5 @@
+print("Program to show file input output")
+f = open("demo.txt","r")
+f2 = open("practice2.txt","w")
+print(f.read())
+f.close()

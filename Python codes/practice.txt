@@ -1,0 +1,3 @@
+Hello this is a practice sample file
+we use it just for the practice purpose
+of our python file input output program
