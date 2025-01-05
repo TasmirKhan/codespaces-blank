@@ -25,7 +25,7 @@ class Employee:
     age = "private"
     role = "Engineer"
     department ="Computer and AI"
-    salary = "100000 Kuwaiti Dinar/month"
+    salary = "100000 "
     def __init__(self, role = "Anonymous", department ="Unknown", salary = 0):
         self.role = role
         self.department = department
@@ -37,7 +37,7 @@ class Employee:
         print("Salary: ", self.salary)
 
 
-e1 = Employee("Management", 230, "10 Millions Kuwaiti Dinar")
+e1 = Employee("Management", 230, "10 Millions")
 e1.showdetails()
 
 print("\n\nNow we will create another Engineer class for practice")
