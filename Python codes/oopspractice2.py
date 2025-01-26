@@ -51,3 +51,24 @@ class Engineer(Employee):
 
 e2 = Engineer()
 e2.showdetails()
+
+print("\n\nCreate a class named order which stores item and it's prices and Use dunder function __gt__() to convey that order of 1>order of 2 if the price of order 1 is greater than order 2")
+class Order:
+    def __init__(self, item = "unrecognised", price = "Not available"):
+        self.item = item
+        self.price = price
+        print("New order created with item:", item ,"and price:", price)
+
+    def __gt__(self, other):
+        return self.price>other.price
+
+o1 = Order("Pizza", 200)
+o2 = Order("Burger", 150)
+print(o1.item)
+print(o2.item)
+
+if o1>o2:
+    print("Order 1 is greater than order 2")
+else:
+    print("Order 2 is greater than order 1")
+    
