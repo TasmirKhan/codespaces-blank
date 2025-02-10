@@ -1,6 +1,6 @@
 package DSA Codes.Linkedlist;
 
-public class Bnd {
+public class Bnd{
     class Node{
         int data;
         Node next;

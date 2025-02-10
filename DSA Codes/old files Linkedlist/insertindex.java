@@ -1,4 +1,4 @@
-public class insertinde{
+public class insertindex{
     static class Node{
         int data;
         Node next;
