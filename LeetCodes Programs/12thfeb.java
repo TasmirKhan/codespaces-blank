@@ -65,7 +65,7 @@ class feb12th{
                 break;
             }
         }
-        // System.out.println("Maximum sum = "+ maximumSum(arr));
-
+        feb12th sol = new feb12th();
+        System.out.println("Maximum sum = "+ sol.maximumSum(arr));              
     }
 }
